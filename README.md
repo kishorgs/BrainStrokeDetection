@@ -1,10 +1,20 @@
+Here's an updated version of your README file, including a section for an output demo video at the beginning:
+
+---
+
 # Brain Stroke Detection Using CNN and CT Scan Images
 
-This project focuses on detecting brain strokes using machine learning techniques, specifically a Convolutional Neural Network (CNN) algorithm. The model is trained on a dataset of CT scan images to classify images as either "Stroke" or "No Stroke". The dataset was sourced from Kaggle, and the project uses TensorFlow for model development and Tkinter for a user-friendly interface.
+## Demo Video
+
+Watch the demo video to see the Brain Stroke Detection model in action:
+
+[![Demo Video](img/Demo.mp4)]
+
+This video showcases the functionality of the Tkinter-based GUI interface for uploading CT scan images and receiving predictions on whether the image indicates a brain stroke or not.
 
 ## Project Overview
 
-**Goal**: To develop an AI-powered model capable of classifying brain stroke from CT scan images, aiding in early diagnosis and treatment.
+This project focuses on detecting brain strokes using machine learning techniques, specifically a Convolutional Neural Network (CNN) algorithm. The model is trained on a dataset of CT scan images to classify images as either "Stroke" or "No Stroke". The dataset was sourced from Kaggle, and the project uses TensorFlow for model development and Tkinter for a user-friendly interface.
 
 ### Key Features:
 - **Machine Learning Model**: CNN model built using TensorFlow for classifying brain stroke based on CT scan images.
@@ -92,3 +102,7 @@ python stroke_detection_app.py
 ## Conclusion
 
 This project successfully implements a machine learning model for detecting brain strokes using CT scan images. The developed GUI allows easy image uploading and prediction, enhancing accessibility for healthcare applications. Further improvements could involve testing the model on a larger dataset and optimizing the architecture.
+
+---
+
+Replace `"your-video-id"` with the actual YouTube video ID for your demo video. This README provides a comprehensive overview and showcases the functionality of your project effectively.
