@@ -8,7 +8,10 @@ Here's an updated version of your README file, including a section for an output
 
 Watch the demo video to see the Brain Stroke Detection model in action:
 
-[![Demo Video](img/Demo.mp4)]
+<video controls autoplay>
+    <source src="img/Demo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
 
 This video showcases the functionality of the Tkinter-based GUI interface for uploading CT scan images and receiving predictions on whether the image indicates a brain stroke or not.
 
