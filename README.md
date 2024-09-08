@@ -4,7 +4,7 @@
 
 Watch the demo video to see the Brain Stroke Detection model in action:
 
-[![Demo Video](img/Demo.gif)]
+![Demo Video](img/Demo.gif)
 
 This video showcases the functionality of the Tkinter-based GUI interface for uploading CT scan images and receiving predictions on whether the image indicates a brain stroke or not.
 
@@ -73,7 +73,7 @@ python stroke_detection_app.py
 
 **Main Interface**:
 - The application allows you to upload a CT scan image and provides the prediction.
-[![Demo Video](img/DragAndDropDown.jpg)]
+![Demo Video](img/DragAndDropDown.jpg)
 
 **Output Screens**:
 - Predictions will show either "Stroke" or "No Stroke" based on the uploaded image.
