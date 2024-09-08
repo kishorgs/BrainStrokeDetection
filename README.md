@@ -1,14 +1,10 @@
-Here's an updated version of your README file, including a section for an output demo video at the beginning:
-
----
-
 # Brain Stroke Detection Using CNN and CT Scan Images
 
 ## Demo Video
 
 Watch the demo video to see the Brain Stroke Detection model in action:
 
-[![Demo Video](img/Demo.mp4)]
+[![Demo Video](img/Demo.gif)]
 
 This video showcases the functionality of the Tkinter-based GUI interface for uploading CT scan images and receiving predictions on whether the image indicates a brain stroke or not.
 
@@ -102,7 +98,3 @@ python stroke_detection_app.py
 ## Conclusion
 
 This project successfully implements a machine learning model for detecting brain strokes using CT scan images. The developed GUI allows easy image uploading and prediction, enhancing accessibility for healthcare applications. Further improvements could involve testing the model on a larger dataset and optimizing the architecture.
-
----
-
-Replace `"your-video-id"` with the actual YouTube video ID for your demo video. This README provides a comprehensive overview and showcases the functionality of your project effectively.
