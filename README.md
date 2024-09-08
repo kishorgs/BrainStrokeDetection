@@ -1,4 +1,4 @@
-# Brain Stroke Detection Using CNN and CT Scan Images
+# Brain Stroke Detection Using CNN 
 
 ## Demo Video
 
@@ -73,6 +73,7 @@ python stroke_detection_app.py
 
 **Main Interface**:
 - The application allows you to upload a CT scan image and provides the prediction.
+[![Demo Video](img/DragAndDropDown.jpg)]
 
 **Output Screens**:
 - Predictions will show either "Stroke" or "No Stroke" based on the uploaded image.
