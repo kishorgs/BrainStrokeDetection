@@ -73,19 +73,36 @@ python stroke_detection_app.py
 
 **Main Interface**:
 - The application allows you to upload a CT scan image and provides the prediction.
+  
 ![Demo Video](img/DragAndDropDown.jpg)
 
 **Output Screens**:
 - Predictions will show either "Stroke" or "No Stroke" based on the uploaded image.
 
+Stroke output :
+
+![Demo Video](img/StrokeImage.jpg)
+
+No Stroke output :
+
+![Demo Video](img/NoStrokeImage.jpg)
+
 **Model Summary**:
 - A detailed architecture overview of the CNN model.
+
+![Demo Video](img/ModelDescription.jpg)
 
 **Training Epochs**:
 - Visual representation of accuracy and loss during model training.
 
+![Demo Video](img/EpochOutputs.jpg)
+
 **Performance Metrics**:
 - ROC and PR curve graphs to evaluate the performance of the model.
+
+![Demo Video](img/ROCCUrve.jpg)
+
+![Demo Video](img/PRCurve.jpg)
 
 ## Results
 
