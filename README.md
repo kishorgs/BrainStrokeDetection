@@ -106,7 +106,7 @@ No Stroke output :
 
 ## Results
 
-- The CNN model achieves over 90% accuracy on the test data.
+- The CNN model achieves over 97% accuracy on the test data.
 - **ROC Curve**: The model shows good discriminative ability in predicting strokes.
 - **PR Curve**: Precision and recall metrics indicate strong performance, especially for stroke detection.
   
