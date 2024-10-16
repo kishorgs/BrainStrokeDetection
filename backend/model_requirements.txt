@@ -1,0 +1,8 @@
+warnings 
+os 
+numpy
+matplotlib 
+sklearn
+PIL 
+tensorflow 
+tkinter 
