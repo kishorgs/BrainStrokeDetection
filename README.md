@@ -4,7 +4,7 @@
 
 Watch the demo video to see the Brain Stroke Detection model in action:
 
-<img src="img/Demo.gif" alt="Demo Video" width="800" height="500"/>
+
 
 This video showcases the functionality of the updated frontend interface for uploading CT scan images and receiving predictions on whether the image indicates a brain stroke or not.
 
