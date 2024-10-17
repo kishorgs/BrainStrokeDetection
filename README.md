@@ -6,15 +6,16 @@ Watch the demo video to see the Brain Stroke Detection model in action:
 
 <img src="img/Demo.gif" alt="Demo Video" width="800" height="500"/>
 
-This video showcases the functionality of the Tkinter-based GUI interface for uploading CT scan images and receiving predictions on whether the image indicates a brain stroke or not.
+This video showcases the functionality of the updated frontend interface for uploading CT scan images and receiving predictions on whether the image indicates a brain stroke or not.
 
 ## Project Overview
 
-This project focuses on detecting brain strokes using machine learning techniques, specifically a Convolutional Neural Network (CNN) algorithm. The model is trained on a dataset of CT scan images to classify images as either "Stroke" or "No Stroke". The dataset was sourced from Kaggle, and the project uses TensorFlow for model development and Tkinter for a user-friendly interface.
+This project focuses on detecting brain strokes using machine learning techniques, specifically a Convolutional Neural Network (CNN) algorithm. The model is trained on a dataset of CT scan images to classify images as either "Stroke" or "No Stroke". The dataset was sourced from Kaggle, and the project uses TensorFlow for model development and now utilizes React.js for the frontend and FastAPI for the backend.
 
 ### Key Features:
-- **Machine Learning Model**: CNN model built using TensorFlow for classifying brain stroke based on CT scan images.
-- **User Interface**: Tkinter-based GUI for easy image uploading and prediction.
+- **Machine Learning Model**: CNN model built using TensorFlow for classifying brain strokes based on CT scan images.
+- **User Interface**: React.js frontend for easy image uploading and displaying predictions.
+- **Backend**: FastAPI serves the model for predictions and handles image processing.
 - **Visualization**: Includes model performance metrics such as accuracy, ROC curve, PR curve, and confusion matrix.
 
 ### Dataset:
@@ -43,16 +44,45 @@ The CNN model architecture consists of:
 
 ## How to Use the Project
 
-### Requirements
+### Frontend Requirements
 
-- **Python 3.8+**
-- **TensorFlow 2.17.0**
-- **Tkinter**
-- **PIL (Pillow)**
+- **React.js**
+- **Axios**
+- **Tailwind CSS**
+- **FontAwesome for icons**
 
-Install dependencies via `pip`:
+Install the frontend dependencies using npm or yarn:
 ```bash
-pip install tensorflow pillow matplotlib scikit-learn
+npm install react react-dom axios @fortawesome/react-fontawesome @fortawesome/free-solid-svg-icons tailwindcss autoprefixer postcss
+```
+
+### Backend Requirements
+
+- **FastAPI**
+- **Uvicorn**
+- **TensorFlow**
+- **Pillow**
+- **NumPy**
+
+Install the backend dependencies via `pip`:
+```bash
+pip install fastapi uvicorn tensorflow pillow numpy
+```
+
+### Model Requirements
+
+To build the CNN model, the following Python libraries are used:
+- **warnings**
+- **os**
+- **NumPy**
+- **Matplotlib**
+- **Scikit-learn**
+- **Pillow (PIL)**
+- **TensorFlow**
+
+Install them using `pip`:
+```bash
+pip install numpy matplotlib scikit-learn pillow tensorflow
 ```
 
 ### Running the Project
@@ -61,13 +91,15 @@ pip install tensorflow pillow matplotlib scikit-learn
    - The project code automatically splits the dataset and trains the model.
    - The model is saved as `stroke_detection_model.h5` after training.
 
-2. **Using the Tkinter Interface**:
-   - Run the interface using the provided Tkinter code.
-   - Upload any CT scan image, and the interface will predict whether the image shows signs of a brain stroke.
+2. **Running the FastAPI Backend**:
+   - Start the FastAPI server using Uvicorn:
+   ```bash
+   uvicorn main:app --reload
+   ```
 
-```bash
-python stroke_detection_app.py
-```
+3. **Using the React.js Frontend**:
+   - Run the React.js frontend application, which allows you to upload a CT scan image and displays the prediction.
+   - Use the Axios library in the frontend to send the image to the FastAPI backend for prediction.
 
 ### Screenshots
 
@@ -115,4 +147,4 @@ No Stroke output :
 
 ## Conclusion
 
-This project successfully implements a machine learning model for detecting brain strokes using CT scan images. The developed GUI allows easy image uploading and prediction, enhancing accessibility for healthcare applications. Further improvements could involve testing the model on a larger dataset and optimizing the architecture.
+This project successfully implements a machine learning model for detecting brain strokes using CT scan images. The developed React.js frontend allows easy image uploading and prediction, while FastAPI ensures a smooth backend API for serving the model. Further improvements could involve testing the model on a larger dataset and optimizing the architecture.
