@@ -161,35 +161,39 @@ pip install numpy matplotlib scikit-learn pillow tensorflow
 **Main Interface**:
 - The application allows you to upload a CT scan image and provides the prediction.
   
-![Demo Video](img/DragAndDropDown.jpg)
+![image](https://github.com/user-attachments/assets/d33e2c51-948c-4c82-9244-9924c5901051)
 
 **Output Screens**:
 - Predictions will show either "Stroke" or "No Stroke" based on the uploaded image.
 
 Stroke output :
 
-![Demo Video](img/StrokeImage.jpg)
+![image](https://github.com/user-attachments/assets/7a77acc8-e542-415b-a5d3-8ebe32ae90b4)
 
 No Stroke output :
 
-![Demo Video](img/NoStrokeImage.jpg)
+![image](https://github.com/user-attachments/assets/b8d2cd69-ffdc-410a-aaed-b77468525ca8)
 
 **Model Summary**:
 - A detailed architecture overview of the CNN model.
 
-![Demo Video](img/ModelDescription.jpg)
+![ModelDescription](https://github.com/user-attachments/assets/07d38955-3fa7-4f08-ab9f-d03fecf13b41)
 
 **Training Epochs**:
 - Visual representation of accuracy and loss during model training.
 
-![Demo Video](img/EpochOutputs.jpg)
+![EpochOutputs](https://github.com/user-attachments/assets/d723a010-3a0f-438f-8646-e4fbf74db028)
 
 **Performance Metrics**:
 - ROC and PR curve graphs to evaluate the performance of the model.
 
-![Demo Video](img/ROCCUrve.jpg)
+![PRCurve](https://github.com/user-attachments/assets/c5e252cb-e448-4535-b135-e9068f1a1d4e)
 
-![Demo Video](img/PRCurve.jpg)
+![ROCCUrve](https://github.com/user-attachments/assets/d43fe025-8971-4882-98da-163f8132927e)
+
+**Model output**
+
+![OutPut](https://github.com/user-attachments/assets/afe04357-24cf-47b9-8e0d-b0c8f25da32b)
 
 ## Results
 
