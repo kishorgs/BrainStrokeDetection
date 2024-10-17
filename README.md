@@ -4,7 +4,7 @@
 
 Watch the demo video to see the Brain Stroke Detection model in action:
 
-![React App - Google Chrome 2024-10-17 22-54-48](https://github.com/user-attachments/assets/f076c508-dc3c-467d-a29a-4cf3627a6197)
+![React App - Google Chrome 2024-10-17 23-47-09](https://github.com/user-attachments/assets/410f66e4-753f-4c3b-a666-549a516afe7c)
 
 
 ## Project Overview
