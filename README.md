@@ -44,6 +44,62 @@ The CNN model architecture consists of:
 
 ## How to Use the Project
 
+### Project Setup
+
+1. **Clone the Repository**:
+   - Clone the project repository to your local machine:
+   ```bash
+   git clone [<repository-url>](https://github.com/kishorgs/BrainStrokeDetection.git)
+   ```
+
+2. **Navigate to Frontend Directory**:
+   - Change to the frontend directory:
+   ```bash
+   cd frontend
+   ```
+
+3. **Install Frontend Dependencies**:
+   - Install the required libraries for the React.js frontend:
+   ```bash
+   npm install
+   ```
+
+4. **Run the Frontend**:
+   - Start the React.js frontend:
+   ```bash
+   npm start
+   ```
+   - The React application will run on `http://localhost:3000`.
+
+5. **Navigate to Backend Directory**:
+   - In a new terminal window, change to the backend directory:
+   ```bash
+   cd backend
+   ```
+
+6. **Install Backend Dependencies**:
+   - Install the required libraries for the FastAPI backend:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+7. **Build the model**
+   - Install the required libraries for model building.
+   ```bash
+   pip install -r model_requirements.txt
+   ```
+
+   - Then download the dataset folder in backend folder
+   - Then run **model.ipynb** code
+   - Model will be dowloaded in the same backedn folder as **stroke_detection_model.h5**
+     
+8. **Run the Backend**:
+   - Start the FastAPI server:
+   ```bash
+   uvicorn main:app --reload
+   ```
+   - The FastAPI backend will run on `http://localhost:8000`.
+
 ### Frontend Requirements
 
 - **React.js**
