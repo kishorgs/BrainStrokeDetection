@@ -49,7 +49,7 @@ The CNN model architecture consists of:
 1. **Clone the Repository**:
    - Clone the project repository to your local machine:
    ```bash
-   git clone [<repository-url>](https://github.com/kishorgs/BrainStrokeDetection.git)
+   git clone https://github.com/kishorgs/BrainStrokeDetection.git
    ```
 
 2. **Navigate to Frontend Directory**:
