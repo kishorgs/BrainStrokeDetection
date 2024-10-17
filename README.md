@@ -4,9 +4,7 @@
 
 Watch the demo video to see the Brain Stroke Detection model in action:
 
-
-
-This video showcases the functionality of the updated frontend interface for uploading CT scan images and receiving predictions on whether the image indicates a brain stroke or not.
+![Uploading React App - Google Chrome 2024-10-17 22-54-48.gif…]()
 
 ## Project Overview
 
